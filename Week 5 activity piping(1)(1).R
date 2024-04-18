@@ -35,7 +35,7 @@ library(dplyr)
 mysample<-sample_n(WorldCup, size=15, replace = FALSE, weight = NULL, .env = NULL)
 
 #TASK: Save the new sample as a csv file
-write.csv(mysample,"mysample.cs")
+write.csv(mysample,"mysample.csv")
 
 #Now let's have some fun with *piping*
 
